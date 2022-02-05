@@ -53,5 +53,14 @@ function draw() {
     vertex(v.x, v.y, v.z);
   }
   endShape();
+  
+
+  noFill();
+  beginShape();
+  for (let v of points1) {
+    stroke(255, 10, 10);
+    vertex(v.x, v.y, v.z);
+  }
+  endShape();
 
 }
